@@ -1,0 +1,347 @@
+	.container_mb
+	{
+		display: none;
+	}
+	.swiper-container {
+				height: 500px;
+			}
+			
+			.img {
+				width: 100% !important;
+				margin-top: 50px;
+			}
+			
+			.martop50 {
+				margin-top: 50px;
+			}
+			
+			#returnTop {
+				cursor: pointer;
+				position: fixed;
+				text-decoration: none;
+				right: 20px;
+				bottom: 122px;
+				width: 37px;
+				height: 38px;
+				background: url(//img1.bdstatic.com/static/searchresult/img/result-huge-bg_2c8c18f.png) no-repeat 1px 0;
+				_background-image: url(//img0.bdstatic.com/img/image/imgsearch/normal/result-huge-bg-ie6.png);
+				z-index: 999;
+			}
+			
+			#returnTop:hover {
+				background-position: -37px 0;
+			}
+			
+			.open {
+				float: right;
+				position: relative;
+				top: -45px;
+			}
+			
+			@keyframes dt_dh {
+				from {
+					position: relative;
+					right: -300px;
+					opacity: 0;
+				}
+				to {
+					position: relative;
+					right: 0px;
+					opacity: 1;
+				}
+			}
+			
+			@-moz-keyframes dt_dh
+			/* Firefox */
+			
+			{
+				from {
+					position: relative;
+					right: -300px;
+					opacity: 0;
+				}
+				to {
+					position: relative;
+					right: 0px;
+					opacity: 1;
+				}
+			}
+			
+			@-webkit-keyframes dt_dh
+			/* Safari 和 Chrome */
+			
+			{
+				from {
+					position: relative;
+					right: -300px;
+					opacity: 0;
+				}
+				to {
+					position: relative;
+					right: 0px;
+					opacity: 1;
+				}
+			}
+			
+			@-o-keyframes dt_dh
+			/* Opera */
+			
+			{
+				from {
+					position: relative;
+					right: -300px;
+					opacity: 0;
+				}
+				to {
+					position: relative;
+					right: 0px;
+					opacity: 1;
+				}
+			}
+			
+			.li_donghua {
+				animation-delay:10s /* W3C 和 Opera */
+			   -moz-animation-delay:10s /* Firefox */
+			   -webkit-animation-delay:10s /* Safari 和 Chrome */;
+				  -o-animation-delay:10s;
+				/* Safari 和 Chrome */
+				animation: dt_dh 1.3s;
+				-moz-animation: dt_dh 1.3s;
+				/* Firefox */
+				-webkit-animation: dt_dh 1.3s;
+				/* Safari 和 Chrome */
+				-o-animation: dt_dh 1.3s;
+				/* Opera */
+				
+			}
+			
+			@keyframes name {
+				from {
+					position: relative;
+					top: -300px;
+					font-size: 50px;
+					opacity: 0;
+				}
+				to {
+					position: relative;
+					top: 0px;
+					opacity: 1;
+				}
+			}
+			
+			@-moz-keyframes name
+			/* Firefox */
+			
+			{
+				from {
+					position: relative;
+					top: -300px;
+					font-size: 50px;
+					opacity: 0;
+				}
+				to {
+					position: relative;
+					top: 0px;
+					opacity: 1;
+				}
+			}
+			
+			@-webkit-keyframes name
+			/* Safari 和 Chrome */
+			
+			{
+				from {
+					position: relative;
+					top: -300px;
+					font-size: 50px;
+					opacity: 0;
+				}
+				to {
+					position: relative;
+					top: 0px;
+					opacity: 1;
+				}
+			}
+			
+			@-o-keyframes name
+			/* Opera */
+			
+			{
+				from {
+					position: relative;
+					top: -300px;
+					font-size: 50px;
+					opacity: 0;
+				}
+				to {
+					position: relative;
+					top: 0px;
+					opacity: 1;
+				}
+			}
+			
+			.name {
+				animation: name 1s;
+				-moz-animation: name 1s;
+				/* Firefox */
+				-webkit-animation: name 1s;
+				/* Safari 和 Chrome */
+				-o-animation: name 1s;
+				/* Opera */
+			}
+			
+			
+			
+			
+			@keyframes li_donghua2 {
+				from {
+					position: relative;
+					top: 300px;
+					font-size: 50px;
+					opacity: 0;
+				}
+				to {
+					position: relative;
+					top: 0px;
+					opacity: 1;
+				}
+			}
+			
+			@-moz-keyframes li_donghua2
+			/* Firefox */
+			
+			{
+				from {
+					position: relative;
+					top: 300px;
+					font-size: 50px;
+					opacity: 0;
+				}
+				to {
+					position: relative;
+					top: 0px;
+					opacity: 1;
+				}
+			}
+			
+			@-webkit-keyframes li_donghua2
+			/* Safari 和 Chrome */
+			
+			{
+				from {
+					position: relative;
+					top: 300px;
+					font-size: 50px;
+					opacity: 0;
+				}
+				to {
+					position: relative;
+					top: 0px;
+					opacity: 1;
+				}
+			}
+			
+			@-o-keyframes li_donghua2
+			/* Opera */
+			
+			{
+				from {
+					position: relative;
+					top: 300px;
+					font-size: 50px;
+					opacity: 0;
+				}
+				to {
+					position: relative;
+					top: 0px;
+					opacity: 1;
+				}
+			}
+			
+			.li_donghua2
+			{
+				animation: li_donghua2 0.8s;
+				-moz-animation: li_donghua2 0.8s;
+				/* Firefox */
+				-webkit-animation: li_donghua2 0.8s;
+				/* Safari 和 Chrome */
+				-o-animation: li_donghua2 0.8s;
+				/* Opera */
+			}
+			
+			
+			
+				@keyframes main {
+				from {
+					position: relative;
+					right: 300px;
+					font-size: 50px;
+					opacity: 0;
+				}
+				to {
+					position: relative;
+					right: 0px;
+					opacity: 1;
+				}
+			}
+			
+			@-moz-keyframes main
+			/* Firefox */
+			
+			{
+				from {
+					position: relative;
+					right: 300px;
+					font-size: 50px;
+					opacity: 0;
+				}
+				to {
+					position: relative;
+					right: 0px;
+					opacity: 1;
+				}
+			}
+			
+			@-webkit-keyframes main
+			/* Safari 和 Chrome */
+			
+			{
+				from {
+					position: relative;
+					right: 300px;
+					font-size: 50px;
+					opacity: 0;
+				}
+				to {
+					position: relative;
+					right: 0px;
+					opacity: 1;
+				}
+			}
+			
+			@-o-keyframes main
+			/* Opera */
+			
+			{
+				from {
+					position: relative;
+					right: 300px;
+					font-size: 50px;
+					opacity: 0;
+				}
+				to {
+					position: relative;
+					right: 0px;
+					opacity: 1;
+				}
+			}
+			.main
+			{
+				animation: main 1.5s;
+				-moz-animation: main 1.5s;
+				/* Firefox */
+				-webkit-animation: main 1.5s;
+				/* Safari 和 Chrome */
+				-o-animation: main 1.5s;
+				/* Opera */
+			}
